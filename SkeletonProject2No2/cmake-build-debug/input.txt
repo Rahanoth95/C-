@@ -1,0 +1,36 @@
+(x + (y * 3)), x = 2, y = 6; /* Expect value = 20 */
+(x * (y - 3)), x=6, y = 12; /* Expect value = 54 */
+(x * y), x = 4, y = 0; /* Expect value = 0 */
+(x * y), x = 2, y = 4; /* Expect value = 8 */
+(x / y), x = 5, y = 4; /* Expect value = 1 */
+(x / y), x = 28, y = 4; /* Expect value = 7 */
+(x % y), x = 11, y = 3 /* Expect value = 2 */
+(x % y), x = 3, y = 3 /* Expect value = 0 */
+(x ^ y), x = 5, y = 4; /* Expect value = 1 */
+(x ^ y), x = -2, y = 0; /* Expect value = -2 */
+(x > y), x = 0, y = 0; /* Expect value = 0 */
+(x > y), x = 6, y = 0; /* Expect value = 1 */
+(x > y), x = 2, y = 4; /* Expect value = 0 */
+(x < y), x = 8, y = 4; /* Expect value = 1 */
+(x < y), x = 1, y = 0; /* Expect value = 0 */
+(x & y), x = 0, y = 0; /* Expect value = 0 */
+(x & y), x = 1, y = 0; /* Expect value = 0 */
+(x # y), x = 0, y = 1; /* Expect value = 0 */
+(x # y), x = 1, y = 1; /* Expect value = 1 */
+(x ? y), x = 10, y = 10; /* Expect value = -1 */
+(x ? y), x = 2, y = 1; /* Expect value = 1 */
+(x # y), x = 0, y = 1; /* Expect value = 1  */
+(x # y), x = 1, y = 1; /* Expect value = -1  */
+(x>y) ? x= 8 y = 1  /* Expect value = 1  */
+(x<y) ? x= 2 y = 5 /* Expect value = 0  */
+(x + y), x = ~5, y = 4 /* Expect value = -1 */
+(x - y), x = ~5, y = 5 /* Expect value = 1 */
+(x>1), x=2; /* Expect Value = 1 */
+(x<5), x=2; /* Expect Value = 1 */
+(x & 3), x=2; /* Expect Value = 1 */
+(x + (2 % 4)), x=2; /* Expect Value = 4 */
+(x # y ? z), x = 1, y= 0,z = 2; /* Expect Value = 2 */
+(x ? y # z), x = 3, y= 3,z = 3; /* Expect Value = 3 */
+(x # y ? z), x = -1, y= 1,z = 2; /* Expect Value = -1 */
+(x / y), x =6, y = 5 /* Expected Value = */
+

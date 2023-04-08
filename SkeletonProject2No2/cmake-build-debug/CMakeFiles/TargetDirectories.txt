@@ -1,0 +1,3 @@
+C:/Users/rahan/CLionProjects/SkeletonProject2No2/cmake-build-debug/CMakeFiles/SkeletonProject2No2.dir
+C:/Users/rahan/CLionProjects/SkeletonProject2No2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rahan/CLionProjects/SkeletonProject2No2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
